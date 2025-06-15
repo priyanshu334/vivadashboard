@@ -21,7 +21,7 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from '@/components/ui/pagination'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 interface User {
   id: number
